@@ -31,8 +31,12 @@
       <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
-    <audio src="nhac.mp3" autoplay src="nhac.mp3" loop="">    
-    </audio>
+ <script>
+        function loadSound() {
+            var audio = new Audio('nhac.mp3');
+            audio.play();
+        }
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
